@@ -7115,4 +7115,8 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+  
+  .qq-upload-button {
+  	color: black !important;
+  }
 }
