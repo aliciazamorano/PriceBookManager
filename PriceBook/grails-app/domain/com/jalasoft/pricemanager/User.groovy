@@ -12,9 +12,12 @@ class User {
 	boolean accountLocked
 	boolean passwordExpired
 
+	List<Document> documents;
+	
 	static constraints = {
 		username blank: false, unique: true
 		password blank: false
+		
 	}
 
 	static mapping = {

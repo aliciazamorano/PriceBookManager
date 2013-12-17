@@ -11,7 +11,7 @@ class UrlMappings {
 		"500"(view:'/error')
 		"/login/$action?"(controller: "login")
 		"/logout/$action?"(controller: "logout")
-		"/success"(view:"home")
+		"/success/$action?"(controller: "Document")
 		"/denied"(view:"/login/auth")
 	}
 }
